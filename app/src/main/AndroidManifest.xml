@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nineinfosys.basicconverter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.nineinfosys.basicconverter.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ActivitySetting">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity android:name=".SearchActivity"/>
+
+        <activity android:name=".ConverterActivity.Time.TimeMainActivity" />
+        <activity android:name=".ConverterActivity.RomanNumbersActivity" />
+        <activity android:name=".ConverterActivity.TempertureActivity" />
+        <activity android:name=".ConverterActivityList.ConversionTempListActivity" />
+        <activity android:name=".ConverterActivity.AreaActivity" />
+        <activity android:name=".ConverterActivity.PressureActivity" />
+        <activity android:name=".ConverterActivityList.ConversionAreaListActivity" />
+        <activity android:name=".ConverterActivityList.ConversionPressureListAvtivity" />
+        <activity android:name=".ConverterActivity.AngleActivity" />
+        <activity android:name=".ConverterActivity.SpeedActivity" />
+        <activity android:name=".ConverterActivityList.ConversionSpeedListActivity" />
+        <activity android:name=".ConverterActivityList.ConversionAngleListActivity" />
+        <activity android:name=".ConverterActivity.ForceActivity" />
+        <activity android:name=".ConverterActivityList.ConversionForceListActivity" />
+        <activity android:name=".ConverterActivity.TimeActivity" />
+        <activity android:name=".ConverterActivity.VolumeActivity" />
+        <activity android:name=".ConverterActivityList.ConversionTimeListActivity" />
+        <activity android:name=".ConverterActivity.VolumeDryActivity" />
+        <activity android:name=".ConverterActivityList.ConversionVolumeDryListActivity" />
+        <activity android:name=".ConverterActivity.EnergyActivity" />
+        <activity android:name=".ConverterActivityList.ConversionEnergyListActivity" />
+        <activity android:name=".ConverterActivity.DataStorageActivity" />
+        <activity android:name=".ConverterActivityList.ConversionDataStorageListActivity" />
+        <activity android:name=".ConverterActivity.PowerActivity" />
+        <activity android:name=".ConverterActivityList.ConversionPowerListActivity" />
+        <activity android:name=".ConverterActivity.LengthActivity" />
+        <activity android:name=".ConverterActivityList.ConversionLenghtListActivity" />
+        <activity android:name=".ConverterActivity.FuelActivity" />
+        <activity android:name=".ConverterActivityList.ConversionFuelListActivity" />
+        <activity android:name=".ConverterActivityList.ConversionVolumeListActivity" />
+        <activity android:name=".ConverterActivity.WeightActivity" />
+        <activity android:name=".ConverterActivityList.ConversionWeightListActivity" />
+        <activity android:name=".ConverterActivityList.ConversionSoundListActivity" />
+        <activity android:name=".ConverterActivity.SoundActivity"/>
+        <activity android:name=".ConverterActivityList.ConversionPrefixListActivity" />
+        <activity android:name=".ConverterActivity.PrefixActivity" />
+        <activity android:name=".ConverterActivityList.ConversionImageListActivity" />
+        <activity android:name=".ConverterActivity.ImageActivity" />
+        <activity android:name=".ConverterActivityList.ConversionCookingListActivity" />
+        <activity android:name=".ConverterActivity.CookingActivity" />
+        <activity android:name=".ConverterActivityList.ConversionTypographyListActivity" />
+        <activity android:name=".ConverterActivity.TypographyConversionActivity" />
+        <activity android:name=".ConverterActivityList.VolumeLumberListActivity" />
+        <activity android:name=".ConverterActivity.VolumeLumberConverterActivity" />
+        <activity android:name=".ConverterActivityList.WorkConverterListActivity" />
+        <activity android:name=".ConverterActivity.WorkConverterActivity" />
+        <activity android:name=".ConverterActivityList.DataTransferConverterListActivity" />
+        <activity android:name=".ConverterActivity.DataTransferConverterActivity" />
+    </application>
+
+</manifest>
