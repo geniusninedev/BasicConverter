@@ -40,14 +40,12 @@
           android:orientation="vertical"
           android:id="@+id/radioGroupNumberFormat">
 
-
         <RadioButton
             android:id="@+id/RadioNumberFormatDecimal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Decimal Format "
-            android:textSize="16dp"
-           />
+            android:textSize="16dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
